@@ -97,7 +97,7 @@ class Home extends React.Component<Props, ContactState> {
                 In back-end development, Python framework and Node.js framework are mainly used, with Django, Express, and Nest.js being the most used.
                 In front-end development, I&lsquo;m familiar with Next.js and Tailwind CSS.
                 From start to finish, I&lsquo;ll be in charge of everything.
-                Let&lsquo;s remain in touch!" I cherish frequent communication a lot.<br/>
+                Let&lsquo;s remain in touch!&ldquo;&ldquo; I cherish frequent communication a lot.<br/>
                   <br/>
                 </div>
               </div>
