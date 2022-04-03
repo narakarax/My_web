@@ -77,7 +77,7 @@ class Home extends React.Component<Props, ContactState> {
                 </div>
                 <div className='flex justify-center items-start md:items-center relative p-8'>
                   <div className='w-[200px] h-[200px] md:w-[300px] md:h-[300px] relative'>
-                    <Image src="/assets/img/myface.png" alt="Avatar" layout='fill'/>
+                    <Image src="/assets/img/myface.jpg" alt="Avatar" layout='fill'/>
                   </div>
                 </div>
             </div>
