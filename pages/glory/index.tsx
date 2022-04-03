@@ -67,7 +67,7 @@ class Home extends React.Component<Props, ContactState> {
             <div className='grid grid-cols-1 md:grid-cols-2 h-[100vh] md:h-[700px] pt-[70px] relative z-10'>              
                 <div className='flex justify-center items-center p-8 relative'>
                   <div className='relative'>
-                    <p className='text-yellow-500 text-center text-26 md:text-40 font-medium p-4'>I&apos;m <b className='text-32 md:text-60'>WI JONG</b></p>
+                    <p className='text-yellow-500 text-center text-26 md:text-40 font-medium p-4'>I&apos;m <b className='text-32 md:text-60'>Radul Lazic</b></p>
                     <div className='text-white text-center text-26 md:text-40 font-medium p-4'>5+ Years of Hands-On Experience</div>
                     <div className='md:w-full flex justify-center mt-4'>
                       <button className="btn btn-here bg-white hover:bg-black border-2 border-white font-medium hover:text-white text-black px-6 py-3" type="submit" id="sendMessageButton"
@@ -91,7 +91,7 @@ class Home extends React.Component<Props, ContactState> {
               <div className='text-xl md:text-40 text-center text-gray-700 font-bold md:mt-8 mb-8'>ABOUT ME</div>
               <div className='md:flex md:items-center md:mb-8 ' >
                 <div className='text-base md:text-lg font-medium text-gray-500 md:px-8 mb-4'>
-                I'm a web developer with experience working on small and medium-sized business websites.
+                I&lsquo;m a web developer with experience working on small and medium-sized business websites.
                 All of my talents include JavaScript, Python, Database and CI/CD.
                 I like to release digital products including websites by myself/collaborating with a team, and I am good at back-end development.
                 In back-end development, Python framework and Node.js framework are mainly used, with Django, Express, and Nest.js being the most used.
