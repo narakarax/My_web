@@ -70,8 +70,8 @@ class Home extends React.Component<Props, ContactState> {
                     <p className='text-yellow-500 text-center text-26 md:text-40 font-medium p-4'>I&apos;m <b className='text-32 md:text-60'>Elijah Lavoie</b></p>
                     <div className='text-white text-center text-26 md:text-40 font-medium p-4'>5+ Years of Hands-On Experience</div>
                     <div className='md:w-full flex justify-center mt-4'>
-                      <button className="btn btn-here bg-white hover:bg-black border-2 border-white font-medium hover:text-white text-black px-6 py-3" type="submit" id="sendMessageButton"
-                        style={{transition: "ease-out 0.3s",boxShadow: "rgba(0, 0, 0, 0.7) 3px 6px 5px"}}>Contact Me</button>
+                      {/* <button className="btn btn-here bg-white hover:bg-black border-2 border-white font-medium hover:text-white text-black px-6 py-3" type="submit" id="sendMessageButton"
+                        style={{transition: "ease-out 0.3s",boxShadow: "rgba(0, 0, 0, 0.7) 3px 6px 5px"}}>Contact Me</button> */}
                     </div>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ class Home extends React.Component<Props, ContactState> {
           </div>
 
           {/* ----------about-------  */}
-          <div id='about' className="glory-about-me p-8 flex justify-center" style={{backgroundColor:'#D9EEE1'}} >
+          <div id='about' className="glory-about-me p-8 flex justify-center" style={{backgroundColor:'rgb(0 0 0)'}} >
             <div style={{maxWidth:'1200px'}}>
               <div className='text-xl md:text-40 text-center text-gray-700 font-bold md:mt-8 mb-8'>ABOUT ME</div>
               <div className='md:flex md:items-center md:mb-8 ' >
@@ -121,7 +121,7 @@ class Home extends React.Component<Props, ContactState> {
           </div>
 
           {/* ----------skill-------  */}
-          <div id='skill' className="glory-skill p-8" style={{backgroundColor:'#D9EEE1'}}>
+          <div id='skill' className="glory-skill p-8" style={{backgroundColor:'rgb(0 0 0)'}}>
             <div className='title w-full text-center font-bold text-32 md:text-45 text-gray-700 pb-8 md:mt-8'>Skill Service</div>
             <div className='grid grid-cols-1 md:grid-cols-5'>
               <div className='grid-cols-1 md:col-span-2 items-center'><SkillViewChart/></div>
@@ -131,7 +131,7 @@ class Home extends React.Component<Props, ContactState> {
           </div>
 
           {/* ----------contact-------  */}
-          <div id='contact' className="glory-contact" style={{backgroundColor:'#000000'}}>            
+          <div id='contact' className="glory-contact" style={{backgroundColor:'rgb(0 0 0)'}}>            
             <div className='md:flex items-center'>
               <div className='hidden md:block w-1/6'></div>
               <div className='md:w-2/6 justify-center items-center p-8 h-[200px] md:h-[350px]'>
