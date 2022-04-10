@@ -1,4 +1,4 @@
-(function ($) {
+$(function () {
   "use strict";
 
     // Back to top button
@@ -37,5 +37,5 @@
       }
   });  
   
-})(jQuery);
+});
 
