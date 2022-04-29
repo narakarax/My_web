@@ -82,7 +82,7 @@ class Home extends React.Component<Props, ContactState> {
                 </div>
             </div>
             
-            <iframe src="/assets/pages/threejs-particle-rotate/index.html" className='absolute top-0 left-0 w-full h-full' />
+            <iframe  title="" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/894ad84ceb8b444a91fbc05f20530bcd/embed?autospin=1&autostart=1&annotations_visible=0&ui_animations=0&ui_infos=0&ui_stop=0&ui_inspector=0&ui_watermark_link=0&ui_watermark=0&ui_hint=0&ui_ar=0&ui_help=0&ui_settings=0&ui_vr=0&ui_fullscreen=0&ui_annotations=0&ui_theme=dark&dnt=1"/>
           </div>
 
           {/* ----------about-------  */}
